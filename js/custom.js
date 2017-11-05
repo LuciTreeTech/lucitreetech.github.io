@@ -45,6 +45,7 @@ $(function(){
     /* wow
     -----------------*/
     new WOW().init();
+
 });
 
 /* start preloader */
@@ -52,3 +53,17 @@ $(window).load(function(){
 	$('.preloader').fadeOut(1000); // set duration in brackets    
 });
 /* end preloader */
+
+/* My custom code for lucitree.tech
+-----------------*/
+function changeLang(lang) {
+    jQuery.i18n.properties({
+        name: 'Messages',
+        path: 'bundle/',
+        mode: 'both',
+        language: lang,
+        callback: function () {
+            $("#lblLang").text(jQuery.i18n.prop('lblLang'));
+        }
+    });
+}
