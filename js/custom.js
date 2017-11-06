@@ -51,7 +51,13 @@ $(function () {
     $.i18n().load({
         'en': './js/i18n/en.json',
         'vi': './js/i18n/vi.json'
-    }).done(function () { console.log('done!') });
+    }).done(function () {
+        const lang = 'vi';
+        $('#dropdownBtn').attr("src", lang == 'en' ? enFlag : viFlag);
+        $.i18n().locale = lang;
+        $('body').i18n();
+        $('#lblLang').text($.i18n(lang == 'en' ? 'lbl-english' : 'lbl-vietnamese'));
+    });
 });
 
 /* start preloader */
