@@ -6,5 +6,7 @@
     "last-updated": "2016-10-25",
     "locale": "en"
   },
-  "lblLang": "Example Application"
+  "title": "LuciTree Tech",
+  "lbl-english": "ENGLISH",
+  "lbl-vietnamese": "VIETNAMESE"
 }

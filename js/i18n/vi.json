@@ -6,5 +6,7 @@
     "last-updated": "2016-10-25",
     "locale": "vi"
   },
-  "lblLang": "Công ty LuciTree"
+  "title": "Công ty LuciTree Tech",
+  "lbl-english": "Tiếng Anh",
+  "lbl-vietnamese": "Tiếng Việt"
 }

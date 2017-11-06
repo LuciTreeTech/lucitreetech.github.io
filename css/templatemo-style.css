@@ -594,3 +594,52 @@ header .social-icon li a
 
 }
 /* end 360 media quires */
+
+/* my custom css for lucitree tech */
+.dropdown {
+	position: absolute;
+	right: 5px;
+}
+
+.lang-dropdown {
+	display: none;
+}
+
+.dropdown-menu {
+	position: absolute; 
+	top: 50px; 
+	left: 5px;
+}
+
+.lang-item {
+	line-height: 30px !important; 
+	height: 30px !important; 
+	cursor: pointer; 
+	padding-top: 0px !important;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {	
+}
+
+@media only screen and ( max-width: 980px ) {	
+}
+
+@media only screen and ( max-width: 767px ) {
+	.lang-dropdown {
+		display: table-cell;
+		line-height: 70px;
+	}
+	.dropdown, .dropdown-menu {
+		display: none !important;
+	}
+}
+
+@media only screen and ( max-width: 360px ) {
+	.lang-dropdown {
+		display: table-cell;
+		line-height: 70px;
+	}
+	.dropdown, .dropdown-menu {
+		display: none !important;
+	}
+}

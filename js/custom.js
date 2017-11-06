@@ -50,7 +50,7 @@ $(function () {
 
     $.i18n().load({
         'en': './js/i18n/en.json',
-        'vn': './js/i18n/vn.json'
+        'vi': './js/i18n/vi.json'
     }).done(function () { console.log('done!') });
 });
 
@@ -66,4 +66,5 @@ function changeLang(lang) {
     $('#dropdownBtn').attr("src", lang == 'en' ? enFlag : viFlag);
     $.i18n().locale = lang;
     $('body').i18n();
+    $('#lblLang').text($.i18n(lang == 'en' ? 'lbl-english' : 'lbl-vietnamese'));
 }
