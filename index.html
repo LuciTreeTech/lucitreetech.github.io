@@ -13,7 +13,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+	<link rel="shortcut icon" type="image/png" href="/favicon.ico" />
 	<link rel="stylesheet" href="css/global.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -128,7 +128,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">WE ARE <span>AWESOME</span></h2>
+					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><label data-i18n="lbl-about-title"></label>&nbsp;<span>Luci Tree Tech</span></h2>
 					<div class="media">
 						<div class="media-body">
 							<p data-i18n="lbl-about-content-1"></p>
@@ -147,6 +147,9 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">&nbsp;</div>
 				<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
 					<div class="media">
 						<div class="media-heading-wrapper">
@@ -324,6 +327,53 @@
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-12">&nbsp;</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+					<div class="team-wrapper">
+						<img src="images/team-img1.jpg" class="img-responsive" alt="team img 1">
+						<div class="team-des">
+							<h4>TRACY</h4>
+							<span>Designer</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id
+								leo molest.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+					<div class="team-wrapper">
+						<img src="images/team-img2.jpg" class="img-responsive" alt="team img 2">
+						<div class="team-des">
+							<h4>MARY</h4>
+							<span>Developer</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id
+								leo molest.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
+					<div class="team-wrapper">
+						<img src="images/team-img3.jpg" class="img-responsive" alt="team img 3">
+						<div class="team-des">
+							<h4>JULIA</h4>
+							<span>Director</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id
+								leo molest.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
+					<div class="team-wrapper">
+						<img src="images/team-img4.jpg" class="img-responsive" alt="team img 4">
+						<div class="team-des">
+							<h4>LINDA</h4>
+							<span>Manager</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id
+								leo molest.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-- end team -->
@@ -342,15 +392,15 @@
 				</div>
 			</div>
 			<div class="row">				
-				<div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+				<div class="col-md-6 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
 					<i class="fa fa-laptop"></i>
 					<h4 data-i18n="lbl-service-content-1"></h4>
-					<p data-i18n="lbl-service-content-2"></p>
+					<p id="lbl-service-content-2" data-i18n="lbl-service-content-2"></p>
 				</div>
-				<div class="col-md-4 active wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
+				<div class="col-md-6 wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
 					<i class="fa fa-cloud"></i>
 					<h4 data-i18n="lbl-service-content-3"></h4>
-					<p data-i18n="lbl-service-content-4"></p>
+					<p id="lbl-service-content-4" data-i18n="lbl-service-content-4"></p>
 				</div>				
 			</div>
 		</div>
@@ -500,7 +550,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+					<p style="text-align: center;" class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
 						<label data-i18n="copyright"></label> &copy; LuciTree Tech</p>
 				</div>
 			</div>

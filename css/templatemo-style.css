@@ -596,6 +596,10 @@ header .social-icon li a
 /* end 360 media quires */
 
 /* my custom css for lucitree tech */
+p {
+	text-align: justify;
+}
+
 .dropdown {
 	position: absolute;
 	right: 5px;

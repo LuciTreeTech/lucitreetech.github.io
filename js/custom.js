@@ -57,6 +57,8 @@ $(function () {
         $.i18n().locale = lang;
         $('body').i18n();
         $('#lblLang').text($.i18n(lang == 'en' ? 'lbl-english' : 'lbl-vietnamese'));
+        $('#lbl-service-content-2').html($.i18n('lbl-service-content-2'));
+        $('#lbl-service-content-4').html($.i18n('lbl-service-content-4'));
     });
 });
 
@@ -73,4 +75,6 @@ function changeLang(lang) {
     $.i18n().locale = lang;
     $('body').i18n();
     $('#lblLang').text($.i18n(lang == 'en' ? 'lbl-english' : 'lbl-vietnamese'));
+    $('#lbl-service-content-2').html($.i18n('lbl-service-content-2'));
+    $('#lbl-service-content-4').html($.i18n('lbl-service-content-4'));
 }
