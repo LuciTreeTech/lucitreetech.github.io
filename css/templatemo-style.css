@@ -251,11 +251,11 @@ header .social-icon li a
 	{
 		padding-bottom: 32px;
 	} */
-#about .media-heading-wrapper .fa
+#about .media-heading-wrapper .fa, .material-icons
 	{
-		border: 1px solid #fff;
+		border: 1px solid limegreen;
 		border-radius: 2px;
-		color: #fff;
+		color: limegreen;
 		font-size: 24px;
 		width: 60px;
 		height: 60px;
