@@ -5,7 +5,7 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 
 body
 	{
- 		background: var(--main-bg-color);
+ 		background: var(--bg-color-2);
  		color: #ffffff;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 		font-weight: bold;
 	}
 /* end h2 */
@@ -135,7 +135,7 @@ header
 	}
 header .fa
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 	}
 header span
 	{
@@ -187,7 +187,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: var(--text-color-blue); 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -218,7 +218,7 @@ header .social-icon li a
 	}
 #home h1 span
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 		font-weight: bold;
 	}
 #home .btn
@@ -237,7 +237,7 @@ header .social-icon li a
 	}
 #home .btn:hover
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		border-color: transparent;
 	}
 .element {
@@ -247,10 +247,10 @@ header .social-icon li a
 /* end home */
 
 /* start about */
-#about .media-heading-wrapper
+/* #about .media-heading-wrapper
 	{
 		padding-bottom: 32px;
-	}
+	} */
 #about .media-heading-wrapper .fa
 	{
 		border: 1px solid #fff;
@@ -294,7 +294,7 @@ header .social-icon li a
 	}
 #team .team-wrapper .team-des span
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 		display: block;
 		font-weight: bold;
 		padding-bottom: 12px;
@@ -330,7 +330,7 @@ header .social-icon li a
 	}
 #service h4
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 		font-weight: 600;
 		padding-top: 10px;
 		padding-bottom: 14px;
@@ -358,7 +358,7 @@ header .social-icon li a
 	}
 #portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		top: 0;
 		left: 0;
 		right: 0;
@@ -401,7 +401,7 @@ header .social-icon li a
 #contact .form-control
 	{
 		background: transparent;
-		border: 1px solid #28a7e9;
+		border: 1px solid var(--text-color-blue);
 		border-radius: 2px;
 		box-shadow: none;
 		color: #fff;
@@ -418,7 +418,7 @@ header .social-icon li a
 	}
 #contact input[type="submit"]
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		font-weight: bold;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
@@ -500,7 +500,7 @@ header .social-icon li a
 	}
 .social-icon li a:hover
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		border-color: transparent;
 	}
 /* end social icon */
@@ -519,7 +519,7 @@ header .social-icon li a
 		}
 	#portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		top: 0;
 		left: 0;
 		right: 0;

@@ -1,5 +1,10 @@
 :root {
     --main-bg-color: #303030;
+    --bg-color-1: #e5e5e5;
+    --bg-color-2: #ffffff;
+    --fa-icon-color: #28a7e9;
+    /* --text-color-blue: #28a7e9; */
+    --text-color-blue: limegreen;
     --color-1: #d32a49;
     --color-2: #0eb5c7;
     --color-3: #95b33f;
