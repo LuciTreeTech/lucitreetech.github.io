@@ -5,7 +5,7 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 
 body
 	{
- 		background: var(--main-bg-color);
+ 		background: var(--bg-color-2);
  		color: #ffffff;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
@@ -29,7 +29,7 @@ h2
 	}	
 h2 span
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 		font-weight: bold;
 	}
 /* end h2 */
@@ -135,7 +135,7 @@ header
 	}
 header .fa
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 	}
 header span
 	{
@@ -187,7 +187,7 @@ header .social-icon li a
 	}
 
 .navbar-default .navbar-nav > li > a.current { 
-	color: #28A7E9; 
+	color: var(--text-color-blue); 
 }
 .templatemo-nav {
 	border-radius: 0;	
@@ -218,7 +218,7 @@ header .social-icon li a
 	}
 #home h1 span
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 		font-weight: bold;
 	}
 #home .btn
@@ -237,7 +237,7 @@ header .social-icon li a
 	}
 #home .btn:hover
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		border-color: transparent;
 	}
 .element {
@@ -247,16 +247,12 @@ header .social-icon li a
 /* end home */
 
 /* start about */
-#about .media-heading-wrapper
+#about .media-heading-wrapper .fa, .material-icons
 	{
-		padding-bottom: 32px;
-	}
-#about .media-heading-wrapper .fa
-	{
-		border: 1px solid #fff;
+		border: 1px solid limegreen;
 		border-radius: 2px;
-		color: #fff;
-		font-size: 24px;
+		color: limegreen;
+		font-size: 30px;
 		width: 60px;
 		height: 60px;
 		line-height: 60px;
@@ -294,7 +290,7 @@ header .social-icon li a
 	}
 #team .team-wrapper .team-des span
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 		display: block;
 		font-weight: bold;
 		padding-bottom: 12px;
@@ -319,9 +315,9 @@ header .social-icon li a
 	}
 #service .fa
 	{
-		border: 1px solid #fff;
+		border: 1px solid var(--text-color-blue);
 		border-radius: 2px;
-		color: #fff;
+		color: var(--text-color-blue);
 		font-size: 50px;
 		width: 100px;
 		height: 100px;
@@ -330,7 +326,7 @@ header .social-icon li a
 	}
 #service h4
 	{
-		color: #28a7e9;
+		color: var(--text-color-blue);
 		font-weight: 600;
 		padding-top: 10px;
 		padding-bottom: 14px;
@@ -358,7 +354,7 @@ header .social-icon li a
 	}
 #portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		top: 0;
 		left: 0;
 		right: 0;
@@ -401,7 +397,7 @@ header .social-icon li a
 #contact .form-control
 	{
 		background: transparent;
-		border: 1px solid #28a7e9;
+		border: 1px solid var(--text-color-blue);
 		border-radius: 2px;
 		box-shadow: none;
 		color: #fff;
@@ -418,7 +414,7 @@ header .social-icon li a
 	}
 #contact input[type="submit"]
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		font-weight: bold;
 		-webkit-transition: all 0.4s ease-in-out;
 		        transition: all 0.4s ease-in-out;
@@ -500,7 +496,7 @@ header .social-icon li a
 	}
 .social-icon li a:hover
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		border-color: transparent;
 	}
 /* end social icon */
@@ -519,7 +515,7 @@ header .social-icon li a
 		}
 	#portfolio .portfolio-thumb .portfolio-overlay
 	{
-		background: #28a7e9;
+		background: var(--text-color-blue);
 		top: 0;
 		left: 0;
 		right: 0;
@@ -620,6 +616,37 @@ p {
 	height: 30px !important; 
 	cursor: pointer; 
 	padding-top: 0px !important;
+}
+
+.company-name {
+	color: var(--text-color-blue);
+	font-weight: bold;
+}
+
+blockquote {
+	color: var(--text-color-blue);
+  	position: relative;
+  	border: none;
+  	text-align: center !important;
+  	font-weight: bold;
+}
+
+blockquote::before {
+	color: var(--text-color-blue);
+	content: "\201C";
+	font-family: Georgia, serif; 
+	font-size: 60px;
+	font-weight: bold;
+}
+
+blockquote::after {
+	color: var(--text-color-blue);
+	content: "\201d";
+	font-family: Georgia, serif; 
+	font-size: 60px;
+	font-weight: bold;
+	position: absolute;
+	bottom: -45px;
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {	
