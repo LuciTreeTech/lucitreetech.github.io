@@ -444,6 +444,11 @@ header .social-icon li a
 		margin-right: 10px;
 		margin-bottom: 10px;
 	}
+#contact .address a
+	{
+		cursor: pointer !important;
+		color: blue;
+	}
 /* end contact */
 
 /* start copyright */
