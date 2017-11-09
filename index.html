@@ -433,24 +433,39 @@
 	<!-- end portfolio -->
 
 	<!-- start contact -->
-	<section id="contact" style="background: var(--bg-color-1); color: black; text-align: center;">
+	<section id="contact" style="background: #404040; color: black; text-align: center;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<h2 data-i18n="contact-title"></h2>
 				</div>
-				<div style="display: inline-block; width: 50%;">
+				<div id="location" class="col-md-6" style="display: inline-block;">
+					<div style="
+						padding: 1rem !important;
+						border-radius: 0.4em;
+						border-style: dashed;">
+					<div class="ui image" style="width: 17%; padding-right: 0.5em; vertical-align: middle; display: inline-block;">
+						<img src="/images/flag-vn.svg">
+					</div>
+					<div class="address" style="display: inline-block; vertical-align: middle; text-align: left;">
+						<label data-i18n="contact-address-location"></label>
+						<br><b>+84 968 30 4040</b>
+						<br><b>lucitree.tech@gmail.com</b>
+					</div>
+				</div>
+				</div>
+				<div class="col-md-6" style="display: inline-block;">
 					<form action="#" method="post">
-						<label data-i18n="contact-name"></label>
-						<input name="fullname" type="text" class="form-control" id="fullname">
+						<!-- <label data-i18n="contact-name"></label> -->
+						<input name="fullname" type="text" class="form-control" id="fullname" placeholder="">
 
-						<label data-i18n="contact-email"></label>
+						<!-- <label data-i18n="contact-email"></label> -->
 						<input name="email" type="email" class="form-control" id="email">
 
-						<label data-i18n="contact-subject"></label>
+						<!-- <label data-i18n="contact-subject"></label> -->
 						<input name="subject" type="text" class="form-control" id="subject">
 
-						<label data-i18n="contact-content"></label>
+						<!-- <label data-i18n="contact-content"></label> -->
 						<textarea name="message" rows="4" class="form-control" id="message"></textarea>
 
 						<button type="submit" class="form-control" style="background: var(--text-color-blue);"><span data-i18n="contact-submit"></span></button>
@@ -462,7 +477,7 @@
 	<!-- end contact -->
 
 	<!-- start location -->
-	<section id="location" style="color: black;">
+	<!-- <section id="location" style="color: black;">
 		<div class="container">
 			<div class="row" style="display: block; text-align: center;">
 				<div style="
@@ -490,7 +505,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- end location -->
 
 	<!-- start copyright -->
