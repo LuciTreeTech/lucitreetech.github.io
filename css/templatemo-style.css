@@ -705,6 +705,22 @@ blockquote::after {
 	min-height: 300px;
 }
 
+.ball {
+  pointer-events: none;
+  position: absolute; 
+  width: 1px;
+  height: 1px;
+  border-radius: 50%; 
+  background: gray;
+  animation: implode 1s ease-in-out;
+  animation-fill-mode: both;
+  opacity: .09;
+}
+
+@keyframes implode {
+  100% {transform: scale(0)}
+}
+
 @media only screen and (max-width: 1199px) and (min-width: 992px) {	
 }
 
