@@ -65,6 +65,7 @@ $(function () {
         $('#lbl-service-title').html($.i18n('lbl-service-title'));
         $('#porfolio-title').html($.i18n('porfolio-title'));
         $('#lbl-service-content').html($.i18n('lbl-service-content'));
+        $('#contact-address-location').html($.i18n('contact-address-location'));
     });
 
     var mousePos = {};
@@ -125,6 +126,7 @@ function changeLang(lang) {
     $('#lbl-service-title').html($.i18n('lbl-service-title'));
     $('#porfolio-title').html($.i18n('porfolio-title'));
     $('#lbl-service-content').html($.i18n('lbl-service-content'));
+    $('#contact-address-location').html($.i18n('contact-address-location'));
 }
 
 function validEmail(email) { // see:

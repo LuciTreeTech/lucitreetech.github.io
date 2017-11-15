@@ -723,15 +723,31 @@ blockquote::after {
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {	
+	.lang-dropdown {
+		display: inline-block;
+		line-height: 70px;
+		margin-left: 10px;
+	}
+	.dropdown, .dropdown-menu {
+		display: none !important;
+	}
+	.list-technologies li img {
+		width: 100px;
+	}
+	#location {
+		background: url('../images/map-limegreen.png') no-repeat center;
+		background-size: cover;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		min-height: auto;
+	}
 }
 
 @media only screen and ( max-width: 980px ) {	
-}
-
-@media only screen and ( max-width: 767px ) {
 	.lang-dropdown {
-		display: table-cell;
+		display: inline-block;
 		line-height: 70px;
+		margin-left: 10px;
 	}
 	.dropdown, .dropdown-menu {
 		display: none !important;
@@ -739,17 +755,36 @@ blockquote::after {
 	.list-technologies li img {
 		width: 100px;
 	}
+	#location {
+		background: url('../images/map-limegreen.png') no-repeat center;
+		background-size: cover;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		min-height: auto;
+	}
 }
 
-@media only screen and ( max-width: 360px ) {
+@media only screen and ( max-width: 768px ) {
+	.ipad {
+		width: 100%;
+	}
+
 	.lang-dropdown {
-		display: table-cell;
+		display: inline-block;
 		line-height: 70px;
+		margin-left: 10px;
 	}
 	.dropdown, .dropdown-menu {
 		display: none !important;
 	}
 	.list-technologies li img {
 		width: 100px;
+	}
+	#location {
+		background: url('../images/map-limegreen.png') no-repeat center;
+		background-size: cover;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		min-height: auto;
 	}
 }
