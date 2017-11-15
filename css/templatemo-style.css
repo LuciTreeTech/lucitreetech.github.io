@@ -723,6 +723,10 @@ blockquote::after {
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {	
+	.ball {
+		opacity: 0.0;
+	}
+
 	.lang-dropdown {
 		display: inline-block;
 		line-height: 70px;
@@ -744,6 +748,9 @@ blockquote::after {
 }
 
 @media only screen and ( max-width: 980px ) {	
+	.ball {
+		opacity: 0.0;
+	}
 	.lang-dropdown {
 		display: inline-block;
 		line-height: 70px;
@@ -765,6 +772,9 @@ blockquote::after {
 }
 
 @media only screen and ( max-width: 768px ) {
+	.ball {
+		opacity: 0.0;
+	}
 	.ipad {
 		width: 100%;
 	}
