@@ -52,7 +52,7 @@ $(function () {
         'en': './js/i18n/en.json',
         'vi': './js/i18n/vi.json'
     }).done(function () {
-        const lang = 'vi';
+        const lang = 'en';
         $('#dropdownBtn').attr("src", lang == 'en' ? enFlag : viFlag);
         $.i18n().locale = lang;
         $('body').i18n();
@@ -64,6 +64,8 @@ $(function () {
         $('#lbl-why-choose-us-4').html($.i18n('lbl-why-choose-us-4'));
         $('#lbl-service-title').html($.i18n('lbl-service-title'));
         $('#porfolio-title').html($.i18n('porfolio-title'));
+        $('#lbl-service-content').html($.i18n('lbl-service-content'));
+        $('#contact-address-location').html($.i18n('contact-address-location'));
     });
 
     var mousePos = {};
@@ -123,6 +125,8 @@ function changeLang(lang) {
     $('#lbl-why-choose-us-4').html($.i18n('lbl-why-choose-us-4'));
     $('#lbl-service-title').html($.i18n('lbl-service-title'));
     $('#porfolio-title').html($.i18n('porfolio-title'));
+    $('#lbl-service-content').html($.i18n('lbl-service-content'));
+    $('#contact-address-location').html($.i18n('contact-address-location'));
 }
 
 function validEmail(email) { // see:
