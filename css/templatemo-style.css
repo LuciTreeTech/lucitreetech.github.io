@@ -346,6 +346,7 @@ header .social-icon li a
 		overflow: hidden;
 		padding: 0;
 		margin: 0 auto;
+		margin-bottom: 15px;
 	}
 #portfolio .portfolio-thumb .portfolio-overlay
 	{
