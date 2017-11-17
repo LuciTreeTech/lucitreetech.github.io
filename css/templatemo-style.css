@@ -387,16 +387,19 @@ header .social-icon li a
 /* start contact */
 #contact
 	{
-		background: #202020;
+		/* background: #202020; */
+		background: url('../images/map-white.jpg') no-repeat center;
+		background-size: cover;
 	}
 #contact .form-control
 	{
 		background: transparent;
 		border: 1px solid var(--text-color-blue);
-		border-radius: 2px;
+		color: black;
 		box-shadow: none;
 		margin-top: 6px;
 		margin-bottom: 16px;
+		border-radius: 0.4em;
 	}
 #contact label
 	{
@@ -719,6 +722,17 @@ blockquote::after {
   opacity: .09;
 }
 
+.contact-point {
+	padding: 1rem !important;
+	border-radius: 0.4em;
+	border: 1px solid var(--text-color-blue);
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
 @keyframes implode {
   100% {transform: scale(0)}
 }
@@ -746,6 +760,9 @@ blockquote::after {
 		padding-bottom: 10px;
 		min-height: auto;
 	}
+	.contact-point{
+		padding: 1rem !important;
+	}
 }
 
 @media only screen and ( max-width: 980px ) {	
@@ -769,6 +786,9 @@ blockquote::after {
 		padding-top: 0px;
 		padding-bottom: 10px;
 		min-height: auto;
+	}
+	.contact-point{
+		padding: 1rem !important;
 	}
 }
 
@@ -797,5 +817,8 @@ blockquote::after {
 		padding-top: 0px;
 		padding-bottom: 10px;
 		min-height: auto;
+	}
+	.contact-point{
+		padding: 1rem !important;
 	}
 }
