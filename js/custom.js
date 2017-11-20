@@ -59,6 +59,7 @@ $(function () {
         $('#lblLang').text($.i18n(lang == 'en' ? 'lbl-english' : 'lbl-vietnamese'));
         $('#lbl-service-content-2').html($.i18n('lbl-service-content-2'));
         $('#lbl-service-content-4').html($.i18n('lbl-service-content-4'));
+        $('#lbl-service-content-6').html($.i18n('lbl-service-content-6'));
         $('#lbl-why-choose-us-2').html($.i18n('lbl-why-choose-us-2'));
         $('#lbl-why-choose-us-3').html($.i18n('lbl-why-choose-us-3'));
         $('#lbl-why-choose-us-4').html($.i18n('lbl-why-choose-us-4'));
@@ -121,6 +122,7 @@ function changeLang(lang) {
     $('#lblLang').text($.i18n(lang == 'en' ? 'lbl-english' : 'lbl-vietnamese'));
     $('#lbl-service-content-2').html($.i18n('lbl-service-content-2'));
     $('#lbl-service-content-4').html($.i18n('lbl-service-content-4'));
+    $('#lbl-service-content-6').html($.i18n('lbl-service-content-6'));
     $('#lbl-why-choose-us-2').html($.i18n('lbl-why-choose-us-2'));
     $('#lbl-why-choose-us-3').html($.i18n('lbl-why-choose-us-3'));
     $('#lbl-why-choose-us-4').html($.i18n('lbl-why-choose-us-4'));
