@@ -302,6 +302,8 @@ header .social-icon li a
 #service .col-md-4:hover
 	{
 		background: #505050;
+		color: white;
+		cursor: none;
 	}
 #service .active
 	{
