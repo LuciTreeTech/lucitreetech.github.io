@@ -68,6 +68,7 @@ $(function () {
         $('#lbl-service-content').html($.i18n('lbl-service-content'));
         $('#contact-address-location').html($.i18n('contact-address-location'));
         $('#contact-phone').html($.i18n('contact-phone'));
+        $('#office').attr("src", lang == 'en' ? '/images/flag-australia.svg' : '/images/flag-vn.svg');
     });
 
     var mousePos = {};
@@ -131,6 +132,7 @@ function changeLang(lang) {
     $('#lbl-service-content').html($.i18n('lbl-service-content'));
     $('#contact-address-location').html($.i18n('contact-address-location'));
     $('#contact-phone').html($.i18n('contact-phone'));
+    $('#office').attr("src", lang == 'en' ? '/images/flag-australia.svg' : '/images/flag-vn.svg');
 }
 
 function validEmail(email) { // see:
