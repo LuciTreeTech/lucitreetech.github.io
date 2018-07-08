@@ -1,8 +1,6 @@
 {
   "@metadata": {
-    "authors": [
-      "Ilya"
-    ],
+    "authors": ["Ilya"],
     "last-updated": "2016-10-25",
     "locale": "en"
   },
@@ -15,31 +13,56 @@
   "lbl-service": "SERVICE",
   "lbl-portfolio": "PORTFOLIO",
   "lbl-contact": "CONTACT",
-  "lbl-about-title": "We are",
-  "lbl-about-content-1": "is a quality software outsourcing service provider based in Vietnam. Anything and everything related to mobile application and web development is our strength. Our leadership team has 10+ years working in software development and our skillful technical team has had strong experience in many large and complex projects.",
-  "lbl-why-choose-us-1": "Why choose us?",
-  "lbl-why-choose-us-2": "<span class=company-name>Luci Tree Tech</span> We pride ourselves in apps for iOS & Android, as well as web development. We have worked with startups & enterprise companies in different fields and in different countries such as Australia, The United State, etc.",
-  "lbl-why-choose-us-3": "<span class=company-name>Luci Tree Tech</span> can help your business to reduce significant costs by using latest tools & technologies and consulting you the best solutions. We offer you a full range of services which are tailored to your specific business needs – from defining a long-term mobile strategy, to UI/UX, to engineering & testing, and even ongoing maintenance & operations.",
-  "lbl-why-choose-us-4": "Our team of innovators, architects, designers, developers and testers share one mission: <b>to help startups & enterprises create value and accelerate growth through technology</b>. Happy customers and long-term relationships have always been one of our main goals.",
-  "lbl-why-choose-us-5": "Our vision is to become one of the leading companies in software outsourcing industry.",
-  "lbl-why-choose-us-reason-1": "Highest quality and on time delivery.",
-  "lbl-why-choose-us-reason-2": "Competitive price and within your budget.",
-  "lbl-why-choose-us-reason-3": "Smart team with strong skill, high responsibility and international experience.",
-  "lbl-why-choose-us-reason-4": "Co-creative and innovative solutions.",
-  "lbl-why-choose-us-reason-5": "Accompany your business by advising reasonable features.",
+  "lbl-about-title": "WE ARE",
+  "lbl-about-content-1":
+    "is a quality software outsourcing service provider based in Vietnam. Anything and everything related to mobile application and web development is our strength. Our leadership team has 10+ years working in software development and our skillful technical team has had strong experience in many large and complex projects.",
+  "lbl-why-choose-us-1a": "WHY",
+  "lbl-why-choose-us-1b": "CHOOSE US",
+  "lbl-why-choose-us-2":
+    "<span class=company-name>Luci Tree Tech</span> We pride ourselves in apps for iOS & Android, as well as web development. We have worked with startups & enterprise companies in different fields and in different countries such as Australia, The United State, etc.",
+  "lbl-why-choose-us-3":
+    "<span class=company-name>Luci Tree Tech</span> can help your business to reduce significant costs by using latest tools & technologies and consulting you the best solutions. We offer you a full range of services which are tailored to your specific business needs – from defining a long-term mobile strategy, to UI/UX, to engineering & testing, and even ongoing maintenance & operations.",
+  "lbl-why-choose-us-4":
+    "Our team of innovators, architects, designers, developers and testers share one mission: <b>to help startups & enterprises create value and accelerate growth through technology</b>. Happy customers and long-term relationships have always been one of our main goals.",
+
+  "lbl-why-choose-us-reason-1a": "HIGHEST QUALITY",
+  "lbl-why-choose-us-reason-1b": "and on time delivery",
+  "lbl-why-choose-us-reason-2a": "CO-CREATIVE",
+  "lbl-why-choose-us-reason-2b": "and innovative solutions",
+  "lbl-why-choose-us-reason-3a": "LONG-TERM",
+  "lbl-why-choose-us-reason-3b": "cooperation strategy",
+  "lbl-why-choose-us-reason-4a": "COMPETITVE PRICE",
+  "lbl-why-choose-us-reason-4b": "and within your budget",
+  "lbl-why-choose-us-reason-5a": "SMART TEAM",
+  "lbl-why-choose-us-reason-5b": "cooperation strategy",
+  "lbl-why-choose-us-reason-6a": "SMOOTH PROCESS",
+  "lbl-why-choose-us-reason-6b": "and good customer service",
+
+  "lbl-why-choose-us-reason-5":
+    "Accompany your business by advising reasonable features.",
   "lbl-why-choose-us-reason-6": "Flexible working model.",
-  "lbl-why-choose-us-reason-7": "Long-term cooperation strategy.",
+
   "lbl-why-choose-us-reason-8": "Smooth process and good customer service.",
-  "lbl-why-choose-us-reason-9": "Willingness to catch new tech up.",
-  "lbl-why-choose-us-reason-10": "Good technical architecture for scalable projects and stable growth.",
-  "lbl-service-title": "Our services",
-  "lbl-service-content": "<span class=company-name>Luci Tree Tech</span> provides full-circle development to help startups and enterprises build successful mobile apps and webs. Over the years, we have had the privilege of working on a range of projects which have given us a wealth of experience in the services we offer below:<br/><br/>",
-  "lbl-service-content-1": "Mobile development",
-  "lbl-service-content-2": "No matter if you want to order native apps, hybrid apps (cross-platform) or server APIs, our team is highly-skilled to bring the apps of any complexity to life. We will develop your idea into apps which are user-friendly, modern, stylish, elegant and useful among similar existing apps.<br/><br/><span class=company-name>Luci Tree Tech</span> builds apps which perform high quality, good UI/UX, usability and reliability, but we are not only developers. We also help you create an app strategy, improve your idea and provide essential knowledge that allows you to make best business decisions. We work side-by-side with your team from project conception to completion.<br/><br/>According to your requirements, goals and budget, we will consult you the most suitable development technology (Native App or Hybrid App) that will ensure your application’s success.",
-  "lbl-service-content-3": "Web development",
-  "lbl-service-content-4": "With over 10 years of experience, we have deployed many large-scale web based infrastructures as well as landing pages in a wide variety of industries. Our web-focused designers, UI/UX experts, technical architects and skillful developers will bring top-quality solutions to your products.<br/><br/>Nowadays, it’s no doubt that the websites present huge opportunities for companies all over the world. And web applications are ideal for startups who want to develop fast and less expensive web versions to get feedback from their customers before developing more expensive mobile applications.<br/><br/>Whether you need full development, new feature development, existing feature enhancement, front-end or back-end, we can deal with everything. Our dedicated resource has a vast experience in provide full-stack service to build powerful, feature rich and dynamic websites and web applications.",
-  "lbl-service-content-5": "UI/UX design",
-  "lbl-service-content-6": "A successful digital product is not only great to look at, but also friendly and easy to use. We believe that the foundation for it is UI/UX, therefore, we invest time in user research and design to create beautiful and engaging experiences.<br/><br/>Through our UI/UX design process, we are with you from idea to delivery as your co-creation partner. We discover your target audience and their behaviors. We design with consumers in mind. Our top concern is how they experience it and how easy it is to get the value they seek from it.<br/><br/>Our creative designers help you choose colour schemes, font styles, animations, iconography and imagery, all of which adhere to the strictest brand guidelines and satisfy functional demands. We constantly update the hottest trends to make sure your product will be modern, good-looking, impressive and friendly.",
+  "lbl-why-choose-us-reason-10":
+    "Good technical architecture for scalable projects and stable growth.",
+  "lbl-service-title-a": "OUR",
+  "lbl-service-title-b": "SERVICES",
+
+  "lbl-service-content":
+    "<span class=company-name>LuciTree Tech</span> provides you a full-circle development to help startups and enterprises build successful mobile apps and webs. Over the years, we have had the privilege of working on a range of projects which have given us a wealth of experience in the services we offer.",
+  "lbl-service-content-1a": "MOBILE",
+  "lbl-service-content-1b": "DEVELOPMENT",
+  "lbl-service-content-2":
+    "<span class=company-name>Luci Tree Tech</span> builds apps which perform high quality, good UI/UX, usability and reliability. Our team is highly-skilled to bring the apps of any complexity to life. We will develop your idea into apps which are user-friendly, modern, stylish, elegant and useful among similar existing apps.",
+  "lbl-service-content-3a": "WEB",
+  "lbl-service-content-3b": "DEVELOPMENT",
+  "lbl-service-content-4":
+    "With over 10 years of experience, we have deployed many large-scale web based infrastructures as well as landing pages in a wide variety of industries. Our web-focused designers, UI/UX experts, technical architects and skillful developers will bring top-quality solutions to your products.",
+  "lbl-service-content-5a": "UI/UX",
+  "lbl-service-content-5b": "DESIGN",
+
+  "lbl-service-content-6":
+    "A successful digital product is not only great to look at, but also friendly and easy to use. We believe that the foundation for it is UI/UX, therefore, we invest time in user research and design to create beautiful and engaging experiences.",
   "contact-title": "Our place",
   "contact-des-1": "Now we have a lab in Vietnam",
   "contact-des-2": "You have an idea? Tell us, and we will make it go live!",
@@ -49,12 +72,18 @@
   "contact-content": "Message",
   "contact-submit": "Send",
   "contact-address-title": "Address",
-  "contact-address-location": "<i class='fa fa-map-marker' style='font-size: 1.2em;'></i>&nbsp;1/1a Lackey Street Summer Hill NSW 2130",
+  "contact-address-location":
+    "<i class='fa fa-map-marker' style='font-size: 1.2em;'></i>&nbsp;1/1a Lackey Street Summer Hill NSW 2130",
   "contact-address-location-2": "",
-  "contact-phone": "Anh Nguyen: <i class='fa fa-mobile' style='font-size: 1.2em;'></i>&nbsp;+61 432 040 678&nbsp;<i class='fa fa-envelope'></i>&nbsp;<a href='mailto:anh@lucitree.tech'>anh@lucitree.tech</a>",
+  "contact-phone":
+    "Anh Nguyen: <i class='fa fa-mobile' style='font-size: 1.2em;'></i>&nbsp;+61 432 040 678&nbsp;<i class='fa fa-envelope'></i>&nbsp;<a href='mailto:anh@lucitree.tech'>anh@lucitree.tech</a>",
   "contact-mail": "anh@lucitree.tech",
   "copyright": "Copyright",
-  "team-title": "Our team",
+  "team-title-a": "OUR",
+  "team-title-b": "TEAM",
+  "team-lbl-content":
+    "&quot; Our vision is to become one of the leading companies in the software outsourcing industry &quot;",
   "porfolio-title": "Our porfolio",
-  "porfolio-des": "We have completed complex and international projects for startups and enterprise companies in Australia, The United State, etc."
+  "porfolio-des":
+    "We have completed complex and international projects for startups and enterprise companies in Australia, The United State, etc."
 }
