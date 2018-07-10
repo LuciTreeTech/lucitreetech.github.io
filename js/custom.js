@@ -74,8 +74,14 @@ $(function() {
       $('#team-lbl-content').html($.i18n('team-lbl-content'));
       $('#porfolio-title').html($.i18n('porfolio-title'));
       $('#lbl-service-content').html($.i18n('lbl-service-content'));
-      $('#contact-address-location').html($.i18n('contact-address-location'));
-      $('#contact-phone').html($.i18n('contact-phone'));
+      $('#contact-address-location-1').html(
+        $.i18n('contact-address-location-1')
+      );
+      $('#contact-phone-1').html($.i18n('contact-phone-1'));
+      $('#contact-address-location-2').html(
+        $.i18n('contact-address-location-2')
+      );
+      $('#contact-phone-2').html($.i18n('contact-phone-2'));
       $('#office').attr(
         'src',
         lang == 'en' ? '/images/flag-australia.svg' : '/images/flag-vn.svg'

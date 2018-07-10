@@ -63,27 +63,34 @@
 
   "lbl-service-content-6":
     "A successful digital product is not only great to look at, but also friendly and easy to use. We believe that the foundation for it is UI/UX, therefore, we invest time in user research and design to create beautiful and engaging experiences.",
-  "contact-title": "Our place",
+  "contact-title-a": "OUR",
+  "contact-title-b": "PLACE",
   "contact-des-1": "Now we have a lab in Vietnam",
-  "contact-des-2": "You have an idea? Tell us, and we will make it go live!",
+  "contact-des-2": "YOU HAVE AN IDEA?",
+  "contact-des-3": "TELL US, AND WE WILL MAKE IT GO LIVE!",
   "contact-name": "Name",
   "contact-email": "Email",
   "contact-subject": "Subject",
   "contact-content": "Message",
   "contact-submit": "Send",
   "contact-address-title": "Address",
-  "contact-address-location":
+  "contact-address-location-1":
     "<i class='fa fa-map-marker' style='font-size: 1.2em;'></i>&nbsp;1/1a Lackey Street Summer Hill NSW 2130",
-  "contact-address-location-2": "",
-  "contact-phone":
-    "Anh Nguyen: <i class='fa fa-mobile' style='font-size: 1.2em;'></i>&nbsp;+61 432 040 678&nbsp;<i class='fa fa-envelope'></i>&nbsp;<a href='mailto:anh@lucitree.tech'>anh@lucitree.tech</a>",
-  "contact-mail": "anh@lucitree.tech",
+  "contact-address-location-2":
+    "<i class='fa fa-map-marker' style='font-size: 1.2em;'></i>&nbsp;159/47 Bạch Đằng, Phường 2, Quận Tân Bình, TP.Hồ Chí Minh",
+  "contact-phone-1":
+    "Anh Nguyen: <i class='fa fa-mobile' style='font-size: 1.2em;'></i>&nbsp;+61 432 040 678&nbsp;<br><i class='fa fa-envelope'></i>&nbsp;<a href='mailto:anh@lucitree.tech'>anh@lucitree.tech</a>",
+  "contact-phone-2":
+    "<i class='fa fa-mobile' style='font-size: 1.2em;'></i>&nbsp;0968 30 4040 - 0909 99 2672<br/><i class='fa fa-envelope'></i>&nbsp;<a href='mailto:huudoan@lucitree.tech'>huudoan@lucitree.tech</a> - <a href='mailto:voky@lucitree.tech'>voky@lucitree.tech</a>",
+  "contact-mail-1": "anh@lucitree.tech",
+  "contact-mail-2": "huudoan@lucitree.tech - voky@lucitree.tech",
   "copyright": "Copyright",
   "team-title-a": "OUR",
   "team-title-b": "TEAM",
   "team-lbl-content":
     "&quot; Our vision is to become one of the leading companies in the software outsourcing industry &quot;",
-  "porfolio-title": "Our porfolio",
+  "porfolio-title-a": "OUR",
+  "porfolio-title-b": "PORTFOLIO",
   "porfolio-des":
     "We have completed complex and international projects for startups and enterprise companies in Australia, The United State, etc."
 }

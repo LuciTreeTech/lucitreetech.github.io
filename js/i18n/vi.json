@@ -62,9 +62,10 @@
 
   "lbl-service-content-6":
     "Một sản phẩm kỹ thuật số thành công không chỉ đẹp mà còn phải thân thiện và dễ sử dụng. Chúng tôi tin rằng nền tảng chính là UI / UX (giao diện người dùng và kinh nghiệm người dùng), do đó chúng tôi đầu tư thời gian vào việc nghiên cứu người dùng và thiết kế để tạo ra những trải nghiệm thú vị và hấp dẫn.",
-  "contact-title": "Liên hệ chúng tôi",
-  "contact-des-2":
-    "Cho chúng tôi biết ý tưởng của bạn, và chúng ta sẽ cùng nhau biến nó thành hiện thực!",
+  "contact-title-a": "LIÊN HỆ",
+  "contact-title-b": "CHÚNG TÔI",
+  "contact-des-2": "Cho chúng tôi biết ý tưởng của bạn,",
+  "contact-des-3": "và chúng ta sẽ cùng nhau biến nó thành hiện thực!",
   "contact-name": "Tên của bạn",
   "contact-email": "Email",
   "contact-subject": "Tiêu đề",
@@ -83,7 +84,8 @@
   "team-title-b": "CỦA CHÚNG TÔI",
   "team-lbl-content":
     "&quot; Tầm nhìn của chúng tôi là trở thành một trong những công ty hàng đầu trong ngành công nghiệp gia công phần mềm &quot;",
-  "porfolio-title": "Dự án đang thực hiện",
+  "porfolio-title-a": "DỰ ÁN",
+  "porfolio-title-b": "ĐANG THỰC HIỆN",
   "porfolio-des":
     "Chúng tôi đã và đang thực hiện nhiều dự án cho các công ty khởi nghiệp và doanh nghiệp quốc tế ở Úc, Mỹ, v.v..."
 }

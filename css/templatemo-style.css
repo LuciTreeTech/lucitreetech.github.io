@@ -429,7 +429,7 @@ header .social-icon li a {
 
 /* start portfolio */
 #portfolio {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 #portfolio .col-md-3 {
   padding: 0px;
@@ -474,6 +474,30 @@ header .social-icon li a {
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
   opacity: 0.8;
 }
+
+#portfolio .media-body {
+  font-size: 18px;
+}
+
+#portfolio .project-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+#portfolio .project-image {
+  flex: 1;
+  border: 1px solid var(--color-6);
+  padding: 5px;
+}
+
+#portfolio .project-description {
+  flex: 2.5;
+  padding: 20px;
+  font-size: 15px;
+}
 /* end portfolio */
 
 /* start contact */
@@ -484,12 +508,13 @@ header .social-icon li a {
 }
 #contact .form-control {
   background: transparent;
-  border: 1px solid var(--text-color-blue);
-  color: black;
+  border-width: 0 0 1px 0;
+  border-color: white;
+  color: white;
   box-shadow: none;
   margin-top: 6px;
   margin-bottom: 16px;
-  border-radius: 0.4em;
+  border-radius: 0;
 }
 #contact label {
   font-weight: 500;
@@ -532,6 +557,17 @@ header .social-icon li a {
 #contact .address a {
   cursor: pointer !important;
   color: blue;
+}
+
+#contact .bg-img-half {
+  background: url('../images/contact-bg-img-haft.png') no-repeat;
+  background-size: cover;
+  width: 55%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
 /* end contact */
 

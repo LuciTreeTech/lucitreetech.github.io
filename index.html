@@ -47,7 +47,10 @@
 					<span class="icon icon-bar"></span>
 					<span class="icon icon-bar"></span>
 				</button>
-				<a href="#" class="navbar-brand" style="color: var(--text-color-blue);">LuciTree Tech</a>
+				<!-- <a href="#" class="navbar-brand" style="color: var(--text-color-blue);">LuciTree Tech</a> -->
+				<div class="navbar-brand">
+					<img src="images/lucitree-logo.png" class="img-responsive" />
+				</div>
 				<div class="lang-dropdown">
 					<a onclick="changeLang('en')" class="lang-item">
 						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC"
@@ -80,7 +83,7 @@
 						<a href="#contact" data-i18n="lbl-contact"></a>
 					</li>
 					<li class="dropdown">
-						<button data-toggle="dropdown" style="line-height: 40px; height: 70px; background: #404040; color: white; border: none; outline: none;">
+						<button data-toggle="dropdown" style="line-height: 40px; height: 70px; background: #404040; color: white; border: none; outline: none; margin-left: 20px">
 							<img id="dropdownBtn">
 							<span style="margin-left:0.3em;" id="lblLang"></span>
 							<span class="caret" style="margin-left: 0.8em;"></span>
@@ -380,7 +383,7 @@
 	<!-- end servie -->
 
 	<!-- start team -->
-	<section id="team" style="background: var(--bg-color-1); color: white;">
+	<section id="team" style="background: var(--bg-color-1); color: white; padding-top: 100px; padding-bottom: 100px">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5" style="padding-right: 100px">
@@ -402,7 +405,7 @@
 				<div class="col-md-7">
 					<div id="teamCarousel" class="carousel slide">
 						<!-- Indicators -->
-						<ol class="carousel-indicators" style="bottom:-35px">
+						<ol class="carousel-indicators" style="bottom:-45px">
 							<li data-target="#teamCarousel" data-slide-to="0" class="active"></li>
 							<li data-target="#teamCarousel" data-slide-to="1"></li>
 						</ol>
@@ -507,55 +510,61 @@
 	<section id="portfolio" style="color: black;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12" style="color: black;">
-					<h2>
-						<label style="font-weight: 500;" id="porfolio-title"></label>
-					</h2>
-					<p data-i18n="porfolio-des" style="text-align: center;"></p>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/me2.png" class="img-responsive" alt="portfolio img 2" style="border: 1px solid limegreen; padding:
-								 10px;">
-						<div class="portfolio-overlay img-responsive" style="left: 15px; right: 15px; bottom: 15px; width: auto; height:
-								 auto;">
-							<h4>What is Me Squared?</h4>
-							<p>Your personal, mobilized health coach; introducing tailored programs and anywhere support.</p>
-							<p>Imagine being able to have access to a qualified health professional who is working one-one-one with you and your
-								outcomes, and imagine having this access from the convenience of wherever you are, when you need it most? Imagine
-								all the tediousness of logging your food, or tabulating spreadsheets removed and having a clear goal-based structure
-								to work on with someone supporting you and keeping you accountable along the way.</p>
+				<div class="col-md-6" style="padding-left: 50px;padding-right: 100px">
+					<div class="section-title" style="margin-top: 70px;">
+						<div class="section-title-bg"></div>
+						<h2 style="text-align: left;">
+							<label data-i18n="porfolio-title-a"></label>
+							<br>
+							<span data-i18n="porfolio-title-b"></span>
+						</h2>
+						<div class="media">
+							<div class="media-body">
+								<p data-i18n="porfolio-des"></p>
+								<div style="height: 4px; width: 80px; background: var(--text-color-blue); margin-top: 30px"></div>
+							</div>
 						</div>
-
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/phongee.png" class="img-responsive" alt="portfolio img 2" style="border: 1px solid limegreen;
-								 padding: 10px;">
+				<div class="col-md-6">
+					<div class="project-container">
+						<div class="project-image">
+							<img src="images/me2.png" class="img-responsive" alt="porfolio img 2" />
+						</div>
+						<div class="project-description">
+							<p style="font-weight: bold">ME SQUARED</p>
+							<p>Your personal, mobilized health coach; introducing tailored programs and anywhere support.</p>
+						</div>
+					</div>
+					<div class="project-container">
+						<div class="project-image">
+							<img src="images/phongee.png" class="img-responsive" alt="porfolio img 2" />
+						</div>
+						<div class="project-description">
+							<p style="font-weight: bold">PHONGEE</p>
+							<p>Website: www.phongee.vn</p>
+						</div>
+					</div>
+					<div class="project-container">
+						<div class="project-image">
+							<img src="images/thienminh.png" class="img-responsive" alt="porfolio img 2" />
+						</div>
+						<div class="project-description">
+							<p style="font-weight: bold">THIEN MINH AUTO</p>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/thienminh.png" class="img-responsive" alt="portfolio img 2" style="border: 1px solid limegreen;
-								 padding: 10px;">
-					</div>
-				</div>
-				<!-- <div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn">
-					<div class="portfolio-thumb">
-						<img src="images/threedot.png" class="img-responsive" alt="portfolio img 2" style="border: 1px solid limegreen;
-								 padding: 10px;">
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</section>
 	<!-- end portfolio -->
 
 	<!-- start contact -->
-	<section id="contact" style="background: var(--bg-color-1); color: white;">
+	<section id="contact" style="background: var(--bg-color-1); color: white; position: relative">
+		<div class="bg-img-half">
+		</div>
 		<div class="container">
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<h2 data-i18n="contact-title"></h2>
 				</div>
@@ -567,18 +576,65 @@
 							<img id="office" src="/images/flag-australia.svg" style="width: 89px;">
 						</div>
 						<div class="col-sm-9 col-xs-12 address" style="display: inline-block; vertical-align: middle; text-align: left;
-								 padding: 0px;">
+						 padding: 0px;">
 							<div id="contact-address-location"></div>
 							<div id="contact-phone"></div>
 						</div>
 					</div>
+				</div> -->
+			<div class="row">
+				<div class="col-md-5" style="padding-right: 100px">
+					<div class="section-title" style="margin-top: 70p">
+						<div class="section-title-bg" style="border-color: #424144"></div>
+						<h2 style="text-align: left;">
+							<label data-i18n="contact-title-a"></label>
+							<br>
+							<span data-i18n="contact-title-b"></span>
+						</h2>
+						<div class="media">
+							<div class="media-body">
+								<div>
+									<p style="color: var(--text-color-blue); font-weight: bold">AUSTRALIA</p>
+									<span id="contact-address-location-1"></span>
+									<br>
+									<span id="contact-phone-1"></span>
+								</div>
+								<div style="margin-top: 30px">
+									<p style="color: var(--text-color-blue); font-weight: bold">VIETNAM</p>
+									<span id="contact-address-location-2"></span>
+									<br>
+									<span id="contact-phone-2"></span>
+								</div>
+								<div style="height: 4px; width: 80px; background: var(--text-color-blue); margin-top: 30px"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7" style="padding-left: 100px">
+					<div data-i18n="contact-des-2" style="font-weight: 800; font-size: 20px"></div>
+					<div data-i18n="contact-des-3" style="margin-bottom: 10px; font-size: 18px"></div>
+					<form action="https://script.google.com/macros/s/AKfycbyUxK_EplXtSth69uTQARXNCcyvgVb7Gt9uIW_AmpfPmcwi82sO/exec
+									" method="post">
+						<form data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwMxYDrufp73bKdU8gMvxFDdHRuzcR4IKQUB33B7GqwyfyZS04/exec"
+						 method="post">
+							<input name="fullname" type="text" class="form-control" id="fullname" data-i18n="[placeholder]contact-name">
+							<input name="email" type="email" class="form-control" id="email" data-i18n="[placeholder]contact-email">
+							<input name="subject" type="text" class="form-control" id="subject" data-i18n="[placeholder]contact-subject">
+							<textarea name="message" rows="6" class="form-control" id="message" data-i18n="[placeholder]contact-content"></textarea>
+							<button type="submit" class="form-control" style="background: transparent; float: right; width: auto; border: none;  font-size: 16px;">
+								<span data-i18n="contact-submit" style="color: white;">
+								</span>
+								<i class="fa fa-long-arrow-right"></i>
+							</button>
+						</form>
 				</div>
 			</div>
-			<!-- <div class="row" style="text-align: center;">
+		</div>
+		<!-- <div class="row" style="text-align: center;">
 				<div class="col-sm-6 col-xs-12 ipad" style="display: inline-block; float: none;">
 					<div data-i18n="contact-des-2" style="font-weight: 800; margin-bottom: 10px;"></div>
 					<form action="https://script.google.com/macros/s/AKfycbyUxK_EplXtSth69uTQARXNCcyvgVb7Gt9uIW_AmpfPmcwi82sO/exec
-								" method="post">
+						" method="post">
 						<form data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbwMxYDrufp73bKdU8gMvxFDdHRuzcR4IKQUB33B7GqwyfyZS04/exec"
 					 method="post">
 						<input name="fullname" type="text" class="form-control" id="fullname" data-i18n="[placeholder]contact-name">
@@ -586,7 +642,7 @@
 						<input name="subject" type="text" class="form-control" id="subject" data-i18n="[placeholder]contact-subject">
 						<textarea name="message" rows="4" class="form-control" id="message" data-i18n="[placeholder]contact-content"></textarea>
 						<button type="submit" class="form-control" style="background: var(--text-color-blue);"><span data-i18n="contact-submit
-								" style="color: white;"></span></button>
+						" style="color: white;"></span></button>
 					</form>
 				</div>
 
@@ -607,8 +663,8 @@
 		<div class="container">
 			<div class="row" style="display: block; text-align: center;">
 				<div style=" width: 50%; padding: 1rem !important; border-radius: 0.4em; background: transparent; cursor: pointer;
-								 -webkit-transition: all ease 0.3s; -moz-transition: all ease 0.3s; -ms-transition: all ease 0.3s; -o-transition:
-								 all ease 0.3s; transition: all ease 0.3s; cursor: pointer; display: inline-block; border-style: dashed;">
+						 -webkit-transition: all ease 0.3s; -moz-transition: all ease 0.3s; -ms-transition: all ease 0.3s; -o-transition: all
+						 ease 0.3s; transition: all ease 0.3s; cursor: pointer; display: inline-block; border-style: dashed;">
 					<div class="ui image" style="width: 17%; padding-right: 0.5em; vertical-align: middle; display: inline-block;">
 						<img src="/images/flag-vn.svg">
 					</div>
