@@ -493,6 +493,10 @@ header .social-icon li a {
   padding: 5px;
 }
 
+#portfolio .project-image img:hover {
+  cursor: pointer;
+}
+
 #portfolio .project-description {
   flex: 2.5;
   padding: 20px;
