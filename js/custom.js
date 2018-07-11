@@ -148,7 +148,25 @@ $(window).load(function() {
   $('.preloader').fadeOut(1000); // set duration in brackets
 });
 /* end preloader */
-
+$(document).ready(function() {
+  console.log('OWL CAROUSEL LOADED');
+  $('.owl-carousel').owlCarousel({
+    items: 3,
+    margin: 10,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      600: {
+        items: 3
+      }
+    }
+  });
+});
 /* My custom code for lucitree.tech
 -----------------*/
 function changeLang(lang) {

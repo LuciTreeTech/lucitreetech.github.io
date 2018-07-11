@@ -298,14 +298,19 @@ header .social-icon li a {
   font-size: 16px;
 }
 
+#whychooseus .reason-wrapper {
+  position: relative;
+  display: flex;
+  margin-top: 56px;
+}
+
 #whychooseus .reason-panel {
   background: white;
-  height: 600px;
-  width: 700px;
-  position: absolute;
-  margin-top: 56px;
-  left: -50px;
+  height: 100%;
+  width: 100%;
   color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 /* end why choose us*/
@@ -338,7 +343,7 @@ header .social-icon li a {
 
 #team .team-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 10px;
   grid-template-rows: 1fr 1fr;
 }
@@ -378,6 +383,14 @@ header .social-icon li a {
 #team .photo-overlay div span {
   font-weight: bold;
   font-size: 18px;
+}
+
+#team .owl-dots .owl-dot span {
+  background: #869791;
+}
+
+#team .owl-dots .active span {
+  background: white;
 }
 /* end team */
 
@@ -487,8 +500,15 @@ header .social-icon li a {
   justify-content: space-between;
 }
 
-#portfolio .project-image {
+#portfolio .project-image-wrapper {
+  display: flex;
   flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#portfolio .project-image {
   border: 1px solid var(--color-6);
   padding: 5px;
 }
@@ -880,8 +900,8 @@ blockquote::after {
 
 .section-title-bg {
   background: transparent;
-  width: 330px;
-  height: 160px;
+  width: 80%;
+  height: 130%;
   position: absolute;
   border: 7px solid #f4f4f4;
   z-index: -1;
